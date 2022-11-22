@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: hsl(213, 19%, 18%);
+}
+
+header {
+    padding: 8rem 16rem;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    padding-right: 20rem;
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+}
+
+div {
+    margin-left: -4rem;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    ;
+}
+
+li {
+    display: block;
+    padding: 2rem;
+    margin: 2rem;
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    border-radius: 4rem;
+    background-color: hsl(212, 20%, 13%);
+
+}
+
+li:hover {
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+}
+
+#four:active {
+    background-color: hsl(217, 12%, 63%);
+    ;
+}
+
+button {
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    font-weight: bolder;
+    padding: .8rem 18rem;
+    border-radius: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+section {
+    text-align: center;
+    height: 500px;
+}
+
+#img {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-bottom: 4rem;
+}
+
+#selected-num {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 22%, 16%);
+    font-weight: bolder;
+    padding: .8rem 5rem;
+    border-radius: 1rem;
+
+}
+
+#thank-you {
+    margin-top: 3rem;
+}
+
+#appreciate {
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    width: 700px;
+}
+
+
+@media (max-width : 900px) {
+
+    header {
+        padding: 8rem 3rem;
+    }
+
+    h1 {
+        color: hsl(0, 0%, 100%);
+    }
+
+    p {
+        padding-right: 2rem;
+        font-size: 15px;
+        color: hsl(217, 12%, 63%);
+    }
+
+    div {
+        margin-left: -4rem;
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        ;
+    }
+
+    li {
+        display: block;
+        padding: .5rem;
+        margin: 1rem;
+        font-size: 15px;
+        color: hsl(217, 12%, 63%);
+        border-radius: 4rem;
+        background-color: hsl(212, 20%, 13%);
+
+    }
+
+    button {
+        border: none;
+        background-color: hsl(25, 97%, 53%);
+        color: hsl(0, 0%, 100%);
+        font-weight: bolder;
+        padding: .8rem 8rem;
+        border-radius: 1rem;
+    }
+
+}
